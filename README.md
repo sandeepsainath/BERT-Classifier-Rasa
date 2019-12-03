@@ -1,6 +1,6 @@
 # BERT Classifier for Rasa NLU
 
-This is Google's BERT Classifier implemented using the [bert-sklearn wrapper](https://github.com/charles9n/bert-sklearn) for a [Rasa chatbot](https://github.com/RasaHQ/rasa). This component is only compatible with any Python version above 3 and below Python 3.7. 
+This is Google's BERT Classifier implemented using the [bert-sklearn wrapper](https://github.com/charles9n/bert-sklearn) for a [Rasa chatbot](https://github.com/RasaHQ/rasa). This component is only compatible with either Python 3.5 or Python 3.6.
 
 A default config.yml file for a Rasa project is included in this repo. It replaces the default classifier (also uses scikit-learn) in the pre-configured Rasa pipeline [`pretrained_embeddings_spacy`](https://rasa.com/docs/rasa/nlu/choosing-a-pipeline/#section-pretrained-embeddings-spacy-pipeline) with this classifier.
 
